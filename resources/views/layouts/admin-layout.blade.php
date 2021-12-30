@@ -67,9 +67,9 @@
                 {{ $slot }}
 
             </div>
-        </div>
+            @include('layouts._footer')
 
-        @include('layouts._footer')
+        </div>
     </div>
 </div>
 
